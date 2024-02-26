@@ -1,0 +1,36 @@
+2024-02-26T18:41:22.069+05:30  INFO 15372 --- [main] s.a.MockDataSpringBootAppApplicationTest : Starting MockDataSpringBootAppApplicationTest using Java 19.0.1 with PID 15372 (started by kunmu in E:\IntelliJ-Repository-Latest\Spring-Security-Fundamentals-Spring-boot-3-X-X\SpringBoot-MOCK-Data-App)
+2024-02-26T18:41:22.124+05:30  INFO 15372 --- [main] s.a.MockDataSpringBootAppApplicationTest : No active profile set, falling back to 1 default profile: "default"
+2024-02-26T18:41:25.350+05:30  INFO 15372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-26T18:41:25.352+05:30  INFO 15372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-26T18:41:25.395+05:30  INFO 15372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+2024-02-26T18:41:25.425+05:30  INFO 15372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-26T18:41:25.430+05:30  INFO 15372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-26T18:41:25.446+05:30  INFO 15372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-02-26T18:41:27.585+05:30  INFO 15372 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-26T18:41:27.627+05:30  INFO 15372 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-02-26T18:41:28.328+05:30  INFO 15372 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@709d6de5
+2024-02-26T18:41:28.335+05:30  INFO 15372 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-02-26T18:41:29.689+05:30  INFO 15372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-26T18:41:30.293+05:30  WARN 15372 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-26T18:41:33.417+05:30  INFO 15372 --- [main] s.a.MockDataSpringBootAppApplicationTest : Started MockDataSpringBootAppApplicationTest in 13.138 seconds (process running for 16.969)
+2024-02-26T18:41:35.341+05:30  INFO 15372 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-26T18:41:35.387+05:30  INFO 15372 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-02-26T18:41:35.461+05:30  INFO 15372 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-02-26T18:42:28.262+05:30  INFO 9460 --- [main] s.a.MockDataSpringBootAppApplicationTest : Starting MockDataSpringBootAppApplicationTest using Java 19.0.1 with PID 9460 (started by kunmu in E:\IntelliJ-Repository-Latest\Spring-Security-Fundamentals-Spring-boot-3-X-X\SpringBoot-MOCK-Data-App)
+2024-02-26T18:42:28.320+05:30  INFO 9460 --- [main] s.a.MockDataSpringBootAppApplicationTest : No active profile set, falling back to 1 default profile: "default"
+2024-02-26T18:42:30.832+05:30  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-26T18:42:30.836+05:30  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-26T18:42:30.865+05:30  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2024-02-26T18:42:30.904+05:30  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-26T18:42:30.908+05:30  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-26T18:42:30.959+05:30  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-02-26T18:42:32.905+05:30  INFO 9460 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-26T18:42:32.959+05:30  INFO 9460 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-02-26T18:42:33.712+05:30  INFO 9460 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51f34185
+2024-02-26T18:42:33.715+05:30  INFO 9460 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-02-26T18:42:35.072+05:30  INFO 9460 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-26T18:42:35.705+05:30  WARN 9460 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-26T18:42:41.879+05:30  INFO 9460 --- [main] s.a.MockDataSpringBootAppApplicationTest : Started MockDataSpringBootAppApplicationTest in 14.909 seconds (process running for 18.696)
+2024-02-26T18:42:43.537+05:30  INFO 9460 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-26T18:42:43.553+05:30  INFO 9460 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-02-26T18:42:43.614+05:30  INFO 9460 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
