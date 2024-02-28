@@ -16,6 +16,12 @@
     <modules>
         <module>Section-01-Introduction-Spring-Security</module>
         <module>SpringBoot-MOCK-Data-App</module>
+        <module>Section-02-Project-software-setup</module>
+        <module>Section-03-The-Fundamentals</module>
+        <module>Section-04-Create-Microservices</module>
+        <module>Section-04-Create-Microservices-Couponservices</module>
+        <module>Section-05-Secure-REST-API</module>
+        <module>Section-06-Secure-Webapp-Couponservices</module>
     </modules>
 
     <properties>

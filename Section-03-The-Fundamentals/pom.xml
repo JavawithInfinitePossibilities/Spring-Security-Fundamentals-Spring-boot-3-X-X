@@ -9,13 +9,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>Section-01-Introduction-Spring-Security</artifactId>
+    <artifactId>Section-03-The-Fundamentals</artifactId>
 
     <properties>
-        <Project.name>Section-01-Introduction-Spring-Security</Project.name>
+        <Project.name>Section-03-The-Fundamentals</Project.name>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <start-class>com.sid.tutorials.spring.boot3.security.app.Section01IntroductionSpringSecurity</start-class>
+        <start-class>com.sid.tutorials.spring.boot3.security.app.Section03TheFundamentals</start-class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -24,8 +24,24 @@
             <artifactId>SpringBoot-MOCK-Data-App</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.66</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>${Project.name}</finalName>
     </build>
+
 </project>
