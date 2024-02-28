@@ -22,6 +22,10 @@
         <module>Section-04-Create-Microservices-Couponservices</module>
         <module>Section-05-Secure-REST-API</module>
         <module>Section-06-Secure-Webapp-Couponservices</module>
+        <module>Section-07-CSRF</module>
+        <module>Section-08-CORS</module>
+        <module>Section-09-Security-Testing</module>
+        <module>Section-10-Method-Level-Security</module>
     </modules>
 
     <properties>
