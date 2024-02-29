@@ -26,6 +26,9 @@
         <module>Section-08-CORS</module>
         <module>Section-09-Security-Testing</module>
         <module>Section-10-Method-Level-Security</module>
+        <module>Section-11-OAuth-And-JWT-Concepts</module>
+        <module>Section-12-Authorization-Server</module>
+        <module>Section-12-Resources-Servers</module>
     </modules>
 
     <properties>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Coupon Home</title>
+</head>
+<body>
+<a href="/Section-07-CSRF/showCreateCoupon">Create Coupon</a>
+<br/>
+<a href="/Section-07-CSRF/showGetCoupon">Get Coupon</a>
+<a href="/Section-07-CSRF/logout">Logout</a>
+<form name="logoutForm" th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out">
+</form>
+</body>
+</html>
